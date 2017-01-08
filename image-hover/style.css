@@ -1,0 +1,94 @@
+
+@media (min-width: 771px) {
+    .mobile{
+        display: none;
+        
+        
+    }
+
+
+}
+
+
+@media (max-width: 770px) {
+#topnav {
+display: none;
+}
+
+    .mobile{
+     z-index: 2;
+    }    
+    
+    
+    nav{
+        margin-bottom: -100px;
+    }
+
+a {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+  padding: 11px 0 0 9px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,40,60,.2);
+  tap-highlight-color: transparent;
+
+}
+span {
+  display: block;
+  width: 16px;
+  height: 2px;
+  background: rgb(0,40,60);
+  transition: .7s;
+  pointer-events: none;
+
+    
+}
+span:nth-child(2) {
+  margin: 3px 0;
+}
+.open {
+  border-color: rgba(255,255,255,.2);
+}
+.open span {
+  background: #fff;
+}
+.open :first-child {
+  transform: translateY(5px) rotate(-45deg);
+}
+.open :nth-child(2) {
+  transform: rotate(-45deg);
+  opacity: 0;
+}
+.open :last-child {
+  transform: translateY(-5px) rotate(-135deg);
+}
+nav {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  transform: translateX(-100%);
+  transition: .5s;
+  font-size: 50px;
+  padding: 10px;
+  font-style: normal;
+  color: white;
+    z-index: 2;
+}
+
+.open + nav {
+  transform: none;
+}
+code {
+  color: transparent;
+  font-size: 0;
+}
+
+
+    
