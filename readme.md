@@ -4,7 +4,7 @@ Prototypes
 Animated back button
 -----------------
 
-- [Link](https://StuartMcMaw.github.io/prototypes/animate-backbutton/index.html)
+- [Link](https://StuartMcMaw.github.io/prototypes/animate-back-button/index.html)
 
 
 Animated Clouds
